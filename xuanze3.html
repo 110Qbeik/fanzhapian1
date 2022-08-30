@@ -1,0 +1,262 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>校园贷</title>
+<link rel="stylesheet" href="yy.css" type=""> 
+<style>
+
+</style>
+
+
+<script  type="text/javascript">
+	
+
+
+	var result1='A';
+	var result2='D';
+	var result3='A';
+	var result4='B';
+	var result5='C';
+
+	function check1(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test1")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result1)
+            			list.getElementsByClassName("res1")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res1")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是A选项。注销校园贷”诈骗手法主要分为两类，一是针对有注册网贷平台账号或有贷款记录的，骗子会声称“根据国家相关政策需要配合注销账号，否则会影响个人征信”；二是针对无注册网贷平台账号或无贷款记录的，骗子则称“你的身份信息被盗用注册了网贷账号，需要配合注销，否则会影响个人征信”。</h4>";
+					}
+    		}				
+	}
+
+	function check2(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test2")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result2)
+            			list.getElementsByClassName("res2")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res2")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是D选项，由于国家加大了对不良“校园贷”的整治力度，一些不法机构为了逃避监管部门的查处，进行改头换面，有的打着“培训贷”“创业贷”“求职贷”“毕业贷”等旗号，采取更为隐蔽的营销手段，继续向在校大学生违规放贷。</h4>";
+					}
+    		}				
+	}
+
+	function check3(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test3")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result3)
+            			list.getElementsByClassName("res3")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res3")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是A选项,收取大额利息。</h4>";
+					}
+    		}				
+	}
+
+	function check4(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test4")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result4)
+            			list.getElementsByClassName("res4")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res4")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是B项。有良好的理财观念和正确的消费观能够有效避开不良校园贷。</h4>";
+					}
+    		}				
+	}
+	function check5(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test5")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result5)
+            			list.getElementsByClassName("res5")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res5")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案是C选项。宣称“无门槛、零利息、免担保”，对涉世未深的大学生来说，具有很强的吸引力。一旦学生“上钩”，这些不法借贷公司会迅速为学生办理贷款，并通过设置合同陷阱、开具远高于贷款金额的借条、故意让学生逾期等方式“步步设套”。</h4>";
+					}
+    		}				
+	}
+
+
+	function show1(){
+
+
+        document.getElementsByClassName("test1")[0].style.display="block";
+        document.getElementsByClassName("test2")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+        document.getElementsByClassName("test4")[0].style.display="none";
+        document.getElementsByClassName("test5")[0].style.display="none";
+	}
+
+	function show2(){
+        document.getElementsByClassName("test2")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+        document.getElementsByClassName("test4")[0].style.display="none";
+        document.getElementsByClassName("test5")[0].style.display="none";
+	}
+
+	function show3(){
+        document.getElementsByClassName("test3")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test2")[0].style.display="none";
+        document.getElementsByClassName("test4")[0].style.display="none";
+        document.getElementsByClassName("test5")[0].style.display="none";
+	}
+
+	function show4(){
+        document.getElementsByClassName("test4")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test2")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+        document.getElementsByClassName("test5")[0].style.display="none";
+	}
+
+	function show5(){
+        document.getElementsByClassName("test5")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test2")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+        document.getElementsByClassName("test4")[0].style.display="none";
+	}
+
+
+
+
+
+
+
+
+
+</script>	  
+</head>
+<body >
+    <div class="Page_content">
+		<div class="Content1">
+			<div id="test_header">
+				<h3>知识问答（三）</h3>
+			</div>
+			<div id="small_test">
+				<div class="test1"  >
+					<form>
+						<br>
+						<h3>【选择题】  1、有人称“你的身份信息被盗用注册了网贷账号，需要配合注销，否则会影响个人征信”，属于哪种校园贷诈骗类型？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;"注销校园贷“</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;"巧立名目逃避监管“类</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;"套路贷“</h4>
+						<h4><input type="radio" name="practise" value="D">D.&nbsp;&nbsp;不是诈骗</h4>
+						<h4><input type="button" class="butt3" onclick="check1()" value="提交"></h4>
+					</form>
+					<div class="res1"></div>
+					<div id="change">
+						<ul>
+							<li ><h4>咳咳这是第一道题</h4></li>
+							<li onclick="show2()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test2"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  2、“培训贷”“创业贷”可能是哪种类型的校园贷诈骗？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;"注销校园贷“</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;不是校园贷诈骗</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;"套路贷“</h4>
+						<h4><input type="radio" name="practise" value="D">D.&nbsp;&nbsp;"巧立名目逃避监管”类</h4>
+						<h4><input type="button" class="butt3" onclick="check2()" value="提交"></h4>
+					</form>
+					<div class="res2"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show1()"><h4>上一题</h4></li>
+							<li onclick="show3()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test3"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  3、下面哪个事件与校园贷有关？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;借款八百，一周利息要10%</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;务农父母，卖猪还债</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;手拿苹果，吃不起饭</h4>
+						<h4><input type="radio" name="practise" value="D">D.&nbsp;&nbsp;生活费透支，月底一顿一块</h4>
+						<h4><input type="button" class="butt3" onclick="check3()" value="提交"></h4>
+					</form>
+					<div class="res3"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show2()"><h4>上一题</h4></li>
+							<li onclick="show4()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test4"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  4、为什么会借校园贷？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;有良好的理财理念</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;缺乏理财观念，错误的消费理念</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;父母指导</h4>
+						<h4><input type="radio" name="practise" value="D">D.&nbsp;&nbsp;老师推荐</h4>
+						<h4><input type="button" class="butt3" onclick="check4()" value="提交"></h4>
+					</form>
+					<div class="res4"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show3()"><h4>上一题</h4></li>
+							<li onclick="show5()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test5"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  5、一般通过学生经常使用的社交媒体或是在校园学生集中区域发小广告，宣称“无门槛、零利息、免担保”的可能是什么校园贷诈骗类型？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;不是校园贷诈骗</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;"注销校园贷</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;"套路贷“</h4>
+						<h4><input type="radio" name="practise" value="D">D.&nbsp;&nbsp;"巧立名目逃避监管”类</h4>
+						<h4><input type="button" class="butt3" onclick="check5()" value="提交"></h4>
+					</form>
+					<div class="res5"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show4()"><h4>上一题</h4></li>
+							<li ><h4>这是最后一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+			</div>
+
+			
+			<div class="footer">
+				<ul >
+					<li id="footer_li1">
+					<a href="xuanzeti.html"><h3>返回上级菜单</h3></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
+
+
+
+
