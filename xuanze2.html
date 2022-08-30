@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>电信诈骗</title>
+<link rel="stylesheet" href="yy.css" type=""> 
+<style>
+
+</style>
+
+
+<script  type="text/javascript">
+	
+
+
+	var result1='C';
+	var result2='A';
+	var result3='B';
+
+
+	function check1(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test1")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result1)
+            			list.getElementsByClassName("res1")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res1")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是C选项。我们应该保持警惕，时刻保护好个人信息。</h4>";
+					}
+    		}				
+	}
+
+	function check2(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test2")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result2)
+            			list.getElementsByClassName("res2")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res2")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是A选项，大学生还应提高个人信息保护意识，保管好自己的身份证号、银行卡号、手机号以及验证码等重要信息，不扫描不明来源的二维码，也不轻易向他人透露家庭住址、宿舍地址、父母联系电话等信息，以免被骗子所利用。</h4>";
+					}
+    		}				
+	}
+
+	function check3(){
+		var obj = document.getElementsByName("practise");
+		var list = document.getElementsByClassName("test3")[0];
+    		for(var i=0; i<obj.length; i++){
+        		if(obj[i].checked){
+					if(obj[i].value==result3)
+            			list.getElementsByClassName("res3")[0].innerHTML = "<h3>回答正确！</h3>";
+					else
+						list.getElementsByClassName("res3")[0].innerHTML = "<h3>回答错误！</h3><h4>&nbsp;&nbsp;&nbsp;&nbsp;正确的答案应该是B选项,大学生还应提高个人信息保护意识，保管好自己的身份证号、银行卡号、手机号以及验证码等重要信息，不扫描不明来源的二维码，也不轻易向他人透露家庭住址、宿舍地址、父母联系电话等信息，以免被骗子所利用。</h4>";
+					}
+    		}				
+	}
+
+
+
+	function show1(){
+
+
+        document.getElementsByClassName("test1")[0].style.display="block";
+        document.getElementsByClassName("test2")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+	}
+
+	function show2(){
+        document.getElementsByClassName("test2")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test3")[0].style.display="none";
+
+	}
+
+	function show3(){
+        document.getElementsByClassName("test3")[0].style.display="block";
+        document.getElementsByClassName("test1")[0].style.display="none";
+        document.getElementsByClassName("test2")[0].style.display="none";
+
+	}
+
+
+</script>	  
+</head>
+<body >
+    <div class="Page_content">
+		<div class="Content1">
+			<div id="test_header">
+				<h3>知识问答（三）</h3>
+			</div>
+			<div id="small_test">
+				<div class="test1"  >
+					<form>
+						<br>
+						<h3>【选择题】  1、当您买完飞机票,却收到航班延误的短信通知，您会怎么办?（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;打对方提供的号码进行退票</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;直接拨打短信提供的号码进行退改签</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;上网搜索一下相关信息, 或向上网搜索一下相关 信息或向航空公司官方客服电话进行核实</h4>
+						<h4><input type="button" class="butt3" onclick="check1()" value="提交"></h4>
+					</form>
+					<div class="res1"></div>
+					<div id="change">
+						<ul>
+							<li ><h4>咳咳这是第一道题</h4></li>
+							<li onclick="show2()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test2"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  2、小宋接到电话,对方称其涉嫌贩毒、走私等违法犯罪,需将银行卡内钱转入“安全账户”这种情况属于哪种诈骗？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;冒充公安局、检察院、法院类诈骗</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;冒充熟人类诈骗</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;机票改签诈骗</h4>
+						<h4><input type="button" class="butt3" onclick="check2()" value="提交"></h4>
+					</form>
+					<div class="res2"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show1()"><h4>上一题</h4></li>
+							<li onclick="show3()"><h4>下一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+
+
+    			<div class="test3"  style="display:none;">
+					<form>
+						<br>
+						<h3>【选择题】  3、不明来电，可免费提高信用卡额度,发链接填写个人信息申请,该如何处理？（ ）</h3>
+						<h4><input type="radio" name="practise" value="A">A.&nbsp;&nbsp;先咨询提额业务,再填资料</h4>
+						<h4><input type="radio" name="practise" value="B">B.&nbsp;&nbsp;挂断电话并咨询银行该操作的真伪</h4>
+						<h4><input type="radio" name="practise" value="C">C.&nbsp;&nbsp;立即进入网址按要求认证填写</h4>
+						<h4><input type="button" class="butt3" onclick="check3()" value="提交"></h4>
+					</form>
+					<div class="res3"></div>
+					<div id="change">
+						<ul>
+							<li onclick="show2()"><h4>上一题</h4></li>
+							<li onclick="show4()"><h4>这是此版块最后一题</h4></li>
+						</ul>
+					</div>
+    			</div>
+   			
+			</div>
+
+			
+			<div class="footer">
+				<ul >
+					<li id="footer_li1">
+					<a href="xuanzeti.html"><h3>返回上级菜单</h3></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
