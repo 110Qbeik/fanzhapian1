@@ -79,10 +79,7 @@ label {
     background-color: rgba(224, 246, 255, 0.85);
 	overflow-y: auto;
 }
-/* 隐藏滑动条 */
-#content::-webkit-scrollbar {
-  display: none; /* Chrome Safari */
-}
+
 
 #content p {
     margin: 5px 5px;
